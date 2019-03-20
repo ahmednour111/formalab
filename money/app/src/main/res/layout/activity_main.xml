@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+
+    tools:context=".MainActivity">
+    <ImageView
+        android:layout_width="2000dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+
+        android:src="@drawable/a"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:hint="note"
+        android:id="@+id/t"
+        android:inputType="text"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enregistrer"
+        android:id="@+id/b"
+        android:textSize="15sp"
+        android:textAllCaps="true"
+        android:layout_marginTop="10dp"
+        android:textColor="#fff"
+        android:background="#F44336"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BIENVENNUE"
+      android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="my money!"
+        android:textSize="20sp"
+      android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+
+        android:gravity="center"
+        />
+
+    <ListView
+        android:background="@color/colorAccent"
+        android:id="@+id/liste"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+</LinearLayout>

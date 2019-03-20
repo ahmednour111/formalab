@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/t"
+        android:icon="@android:drawable/star_on"
+        android:title="total"
+        app:showAsAction="always" />
+    <menu />
+    <item
+        android:id="@+id/b"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Item" />
+    <item
+        android:id="@+id/b"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="add"
+        app:showAsAction="always" />
+</menu>
